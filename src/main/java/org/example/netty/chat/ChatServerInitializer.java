@@ -20,5 +20,4 @@ public class ChatServerInitializer extends ChannelInitializer<SocketChannel> {
 		pipeline.addLast("handler", new ChatServerhandler());
 		
 	}
-
 }

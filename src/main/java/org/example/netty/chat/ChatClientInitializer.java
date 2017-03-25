@@ -20,6 +20,4 @@ public class ChatClientInitializer extends ChannelInitializer<SocketChannel> {
 		pipeline.addLast("encoder", new StringEncoder());
 		pipeline.addLast("handler", new ChatClienthandler());
 	}
-
-	
 }
